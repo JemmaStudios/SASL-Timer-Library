@@ -11,7 +11,7 @@ timer_library.lua
     Sets up xLua style function timer for SASL 3.  Makes life a little simpler when converting a project from xLua to SASL
 
     LIBARY SETUP.
-    Drop this script in the "plugins\sasl\data\modules\Custom Module" folder
+    Drop timer_library.lua in the "plugins\sasl\data\modules\Custom Module" folder
     add it as a component in "plugins\sasl\data\modules\main.lua"
     add the line "timer_lib = {}" anywhere in your main.lua script
 
