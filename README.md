@@ -37,7 +37,13 @@ timer_library.lua
     This returns true if the timer function will run at any time in the future. It returns false if the timer isn’t 
     scheduled or if func has never been used as a timer.
 
-    BONUS feature!
+    BONUS features!
     timer_lib.SIM_PERIOD
     contains the duration of the current frame in seconds (so it is always a fraction). Use this to normalize rates, 
     e.g. to add 3 units of fuel per second in a per­frame callback you’d do fuel = fuel + 3 * SIM_PERIOD
+
+    timer_lib.RUN_TIME_SEC
+    contains the elapsed running time of the X-plane session in seconds
+
+    timer_lib.FLIGHT_TIME_SEC
+    contains the elapsed time of the current flight in seconds.
