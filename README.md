@@ -12,7 +12,7 @@ timer_library.lua
 
     LIBARY SETUP.
     Drop timer_library.lua in the "plugins\sasl\data\modules\Custom Module" folder
-    add it as a component in "plugins\sasl\data\modules\main.lua"
+    add it as the first component in "plugins\sasl\data\modules\main.lua"
     add the line "timer_lib = {}" anywhere in your main.lua script
 
     USAGE:
